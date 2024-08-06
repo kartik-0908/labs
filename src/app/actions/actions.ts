@@ -29,7 +29,7 @@ export async function addMem(mem: string) {
     const res = await client.add([{
       "role": "user", "content": mem
     }], { user_id: session?.user?.email })
-
+    console.log(res)
   } catch (error) {
     console.log(error)
   }
