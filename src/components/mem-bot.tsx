@@ -65,8 +65,7 @@ export function MemBot() {
             <div className="grid gap-1 bg-card p-3 rounded-lg max-w-[70%]">
               <div className="font-medium">AI Assistant</div>
               <div className="text-card-foreground">
-                Sure, I'd be happy to help you with that. What kind of website are you looking to create? Is it for a
-                specific industry or type of business?
+               te
               </div>
             </div>
           </div>
@@ -74,9 +73,7 @@ export function MemBot() {
             <div className="grid gap-1 bg-primary p-3 rounded-lg max-w-[70%] text-primary-foreground">
               <div className="font-medium">You</div>
               <div>
-                I run a small e-commerce business selling handmade jewelry. I'd like a website that showcases my
-                products, allows customers to easily browse and purchase items, and has a simple administrative backend
-                for managing orders and inventory.
+               etw
               </div>
             </div>
             <Avatar className="w-10 h-10 border">
@@ -103,8 +100,7 @@ export function MemBot() {
                   <li>Search and filtering capabilities to help customers find products easily</li>
                   <li>Responsive design to ensure a great experience on both desktop and mobile</li>
                 </ul>
-                Does this sound like the kind of functionality you had in mind? I'd be happy to discuss further and
-                provide more specific recommendations.
+               etett
               </div>
             </div>
           </div>
