@@ -38,6 +38,7 @@ export async function addMem(mem: string) {
 export async function getAllMem() {
   const session = await auth()
   try {
+    console.log(session?.user?.email)
     const res = await client.getAll({ user_id: session?.user?.email })
     return res;
 

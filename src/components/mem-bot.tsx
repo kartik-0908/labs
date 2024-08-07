@@ -94,6 +94,7 @@ export function MemBot() {
             <SelectGroup>
               <SelectItem value="gpt4o">GPT4o</SelectItem>
               <SelectItem value="gpt4omini">GPT4omini</SelectItem>
+              <SelectItem value="groq-llama3-8b-8192">Groq Llama 3(8b)</SelectItem>
             </SelectGroup>
           </SelectContent>
         </Select>
