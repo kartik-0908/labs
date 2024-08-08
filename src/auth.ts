@@ -27,13 +27,12 @@ export const { auth, signIn, signOut } = NextAuth({
     ],
 });
 
-
-
 async function getUser(email: string) {
     try {
         const user = await prisma.user.findUnique({
             where: { email: email },
         });
+        console.log(user)
         return user
     } catch (error) {
         console.error('Failed to fetch user:', error);
