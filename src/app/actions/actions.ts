@@ -39,7 +39,10 @@ export async function getAllMem() {
   const session = await auth()
   try {
     console.log(session?.user?.email)
+    console.log("getting memories")
     const res = await client.getAll({ user_id: session?.user?.email })
+    console.log(res)
+
     return res;
 
   } catch (error) {

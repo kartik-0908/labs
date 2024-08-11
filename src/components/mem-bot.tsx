@@ -16,6 +16,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { Microphone } from "./microphone"
 
 export function MemBot() {
   const [messages, setMessages] = useState<CoreMessage[]>([]);
@@ -31,6 +32,7 @@ export function MemBot() {
     }
     fetchMemories()
   }, [])
+  
   const handleSubmit2 = async () => {
     if (newMemory !== '') {
       await addMem(newMemory)
@@ -135,6 +137,7 @@ export function MemBot() {
               placeholder="Say something..."
               onChange={e => setInput(e.target.value)}
             />
+            <Microphone/>
           </form>
         </div>
       </div>

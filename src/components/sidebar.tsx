@@ -9,11 +9,16 @@ export function Sidebar() {
       <div className="bg-background text-foreground w-full">
         <nav className="flex flex-col gap-4 p-6">
           <Link
-            href="/memory"
+            href="/dashboard"
             className="flex items-center gap-2 px-4 py-2 rounded-md hover:bg-muted/50 transition-colors"
-            prefetch={false}
           >
             <span>Memory</span>
+          </Link>
+          <Link
+            href="/dashboard/widget"
+            className="flex items-center gap-2 px-4 py-2 rounded-md hover:bg-muted/50 transition-colors"
+          >
+            <span>Widget</span>
           </Link>
           <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
           <form
